@@ -21,15 +21,16 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://example.testproject.io/web/')
 
-WebUI.setText(findTestObject('Object Repository/Login Page/Page_TestProject Demo/input_Full Name_name'), 'xikd')
+WebUI.setText(findTestObject('Object Repository/Login Page/Page_TestProject Demo/input_Full Name_name'), 'hkit')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Page_TestProject Demo/input_Password_password'), 'iGDxf8hSRT4=')
 
 WebUI.click(findTestObject('Object Repository/Login Page/Page_TestProject Demo/button_Login'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Login Page/Page_TestProject Demo/p_Hello xikd, lets complete the test form'), 
-    'Hello xikd, let\'s complete the test form:')
+    'Hello hkit, let\'s complete the test form:')
 
 WebUI.closeBrowser()
 
 WebUI.comment('no.1 I am a king')
+
