@@ -32,5 +32,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login Page/Page_TestPr
 
 WebUI.closeBrowser()
 
-WebUI.comment('no.1 I am a king')
+WebUI.comment('以2号为准')
 
