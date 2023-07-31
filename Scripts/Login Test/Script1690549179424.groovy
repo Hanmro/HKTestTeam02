@@ -32,5 +32,4 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login Page/Page_TestPr
 
 WebUI.closeBrowser()
 
-WebUI.comment('我是3号  你们为准就行')
-
+WebUI.comment('no.1 I am a king')
