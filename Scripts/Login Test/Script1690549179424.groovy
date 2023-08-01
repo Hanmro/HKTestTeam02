@@ -32,7 +32,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Login Page/Page_TestPr
 
 WebUI.closeBrowser()
 
-WebUI.comment('tzm added this comment')
-
-WebUI.comment('多一行')
+WebUI.comment('tzm added this comment12')
 
