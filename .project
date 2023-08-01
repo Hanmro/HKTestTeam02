@@ -197,7 +197,6 @@
 			</matcher>
 		</filter>
 		<filter>
-
 			<id>1690807042304</id>
 			<name></name>
 			<type>10</type>
@@ -208,8 +207,24 @@
 		</filter>
 		<filter>
 			<id>1690807042310</id>
-
-
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1690857752227</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1690857752423</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
